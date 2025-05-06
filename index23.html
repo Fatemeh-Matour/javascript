@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./script23.js"></script>
+  </head>
+  <body onbeforeprint="myprint()" onafterprint="myprintend()">
+    <h2 oncopy="mycopy()">سایت اموزشی سبزلرن</h2>
+    <h2 oncut="mycut()">sabzlearn</h2>
+    <br />
+    <select id="myselect" onchange="mychange()">
+      <option>تبریز</option>
+      <option>مشهد</option>
+      <option>شیراز</option>
+      <option>اصفهان</option>
+      <option>گرگان</option>
+    </select>
+    <select>
+      <option>لطفا استان را انتخاب کنید</option>
+      <option id="op1"></option>
+      <option id="op2"></option>
+    </select>
+    <p></p>
+  </body>
+</html>
